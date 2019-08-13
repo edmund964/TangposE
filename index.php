@@ -7,8 +7,9 @@
 <body> 
 
 <h1>Tangpos Photo Gallery</h1> 
-<a href="">photo#1</a><br> 
-<a href="">photo#2</a><br>
-<a href="">photo#3</a><br>
+<a href="photo1.php">photo#1</a><br> 
+<a href="photo2.php">photo#2</a><br>
+<a href="photo3.php">photo#3</a><br>
 </body>
 </html>
+

@@ -1,4 +1,4 @@
-<a href="">photo#1</a> 
+
 <!DOCTYPE html> 
 <html> 
 <head> 

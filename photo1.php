@@ -6,6 +6,6 @@
 <body>  
 
 <h1> Tangpos Gallery </h1> 
-  <img src="https://github.com/edmund964/TangposE/blob/gallery/38469359_419584418563942_3797970087281950720_o.jpg"> 
+  <img src="56691304_558417944680588_6613670850342158336_o.jpg"> 
   </body> 
   </html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Sign Up Page</title>
+</head>
+<body>
+
+	<h1>Sign up here!</h1>
+	<input type="text" required="" id="fname" placeholder="First Name">
+	<input type="text" required="" id="lname" placeholder="Last Name"><br>
+	<input type="email" required="" id="email" placeholder="Your Email"><br>
+
+<!--	
+	<input type="password" required="" id="password"placeholder="Your Password" onkeydown="check_password(this.value)">
+	<label class="notify" id="notify_password"></label><br><br>
+	Birthday:<br>
+	<input type="date" id="birthday" placeholder="mm/dd/yyyy" required=""><br><br>
+	<input type="radio" id="male" name="gender">Female
+	<input type="radio" id="female" name="gender">Male<br><br>
+-->	
+	<button onclick="post()">Submit</button>
+
+
+<script type="text/javascript">
+
+function post()
+{
+		var Fname=document.getElementById("fname").value;
+		var Lname = document.getElementById("lname").value;
+		var email = document.getElementById("email").value;
+		//var name = Fname + " "+Lname;
+		//alert("You have successfully signed up!\n\n"+name+);
+		alert('i am ' + Fname +' '+Lname + 'and my email is '+ email);
+}
+</script>
+
+<style type="text/css">
+	body{
+		background-color: #dceff7;
+		font-size: 20px;
+	}
+
+	form{
+		margin-top: 5%;
+		margin-left: 40%;
+		width: 50%;
+	}
+
+	input[type=password],input[type=email]{
+		width:85%;
+		padding: 15px;
+		margin-top: 2%;
+	}
+
+	input[type=text],input[type=date]{
+		width:40%;
+		padding: 15px;
+		margin-top: 2%;
+		padding-left: 2%;
+	}
+
+	button{
+		background-color:#3b5998;
+		color: white;
+		margin-top: 10px;
+		padding: 16px 20px;
+		cursor: pointer;
+	}
+</style>
+</body>
+</html>
